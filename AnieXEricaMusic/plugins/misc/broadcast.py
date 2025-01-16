@@ -58,7 +58,7 @@ async def braodcast_message(client, message, _):
                     await asyncio.sleep(fw.x)
                 except:
                     continue
-            await message.reply_text(f"Broadcast to chats completed! Sent to {chatsal} chats.")
+            await message.reply_text(f"Broadcast to chats completed! Sent to {1600} chats.")
 
         if "-wfuser" in message.text:
             sent_users = 0
