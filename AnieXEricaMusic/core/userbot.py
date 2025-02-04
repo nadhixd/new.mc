@@ -54,9 +54,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("X_NETWORK_BOTS_I")
-                await self.one.join_chat("shivang_xd")
-                await self.one.join_chat("ll_shayari_lll")
+                await self.one.join_chat("ur_karma_baby")
+                await self.one.join_chat("meetupzone_chatting")
+                await self.one.join_chat("about_arthik")
             except:
                 pass
             assistants.append(1)
@@ -71,8 +71,8 @@ class Userbot(Client):
             self.one.name = (await self.one.get_me()).mention
             self.one.username = (await self.one.get_me()).username
             assistantids.append(self.one.id)
-            ambots = "@Network_xd_bot"
-            gupta = "@Massagesendxdbot"
+            ambots = "@Krishna_op_bot"
+            gupta = "@Krishna_op_bot"
             try:
                 await self.one.send_message(ambots, f"/start")
                 await self.one.send_message(gupta, f"/start")
@@ -89,9 +89,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("shivang_xd")
-                await self.two.join_chat("stickers_Channell")
-                await self.two.join_chat("ll_shayari_lll")
+                await self.two.join_chat("ur_karma_baby")
+                await self.two.join_chat("ur_karma_baby")
+                await self.two.join_chat("ur_karma_baby")
             except:
                 pass
             assistants.append(2)
@@ -111,9 +111,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("FRIENDSZONEOPX")
-                await self.three.join_chat("FRIENDSZONEOPX")
-                await self.three.join_chat("ll_shayari_lll")
+                await self.three.join_chat("meetup_zone")
+                await self.three.join_chat("ur_karma_baby")
+                await self.three.join_chat("about_arthik")
             except:
                 pass
             assistants.append(3)
@@ -133,9 +133,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("FRIENDSZONEOPX")
-                await self.four.join_chat("FRIENDSZONEOPX")
-                await self.four.join_chat("FRIENDSZONEOPX")
+                await self.four.join_chat("meetupzone_chatting")
+                await self.four.join_chat("ur_karma_baby")
+                await self.four.join_chat("ur_karma_baby")
             except:
                 pass
             assistants.append(4)
@@ -155,9 +155,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("ll_shayari_lll")
-                await self.five.join_chat("ll_shayari_lll")
-                await self.five.join_chat("ll_shayari_lll")
+                await self.five.join_chat("ur_karma_baby")
+                await self.five.join_chat("ur_karma_baby")
+                await self.five.join_chat("ur_karma_baby")
             except:
                 pass
             assistants.append(5)
